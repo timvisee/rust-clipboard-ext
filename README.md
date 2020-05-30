@@ -17,6 +17,11 @@
 A clipboard library providing useful extensions for the
 [`rust-clipboard`][rust-clipboard] library.
 
+**Important note: because [`rust-clipboard`][rust-clipboard] is not maintained
+anymore, I highly recommend you to switch to [`copypasta`][copypasta] with
+[`copypasta-ext`][copypasta-ext]. There are forked, which means they are
+essentially the same but newer.**
+
 I had a growing annoyance with `rust-clipboard`, because the clipboard is
 cleared on the Linux/X11 platform when your application exists as per X11
 design. The crate maintainer didn't want to implement workarounds (for valid
@@ -80,5 +85,7 @@ fn main() {
 This project is dual-licensed under the [MIT](./LICENSE.mit) and
 [Apache2](./LICENSE.apache2) license.
 
-[rust-clipboard]: https://github.com/aweinstock314/rust-clipboard
+[copypasta-ext]: https://github.com/timvisee/copypasta-ext
+[copypasta]: https://github.com/alacritty/copypasta
 [rust-clipboard-requirements]: https://github.com/aweinstock314/rust-clipboard#prerequisites
+[rust-clipboard]: https://github.com/aweinstock314/rust-clipboard
