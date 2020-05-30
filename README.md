@@ -17,10 +17,11 @@
 A clipboard library providing useful extensions for the
 [`rust-clipboard`][rust-clipboard] library.
 
-**Important note: because [`rust-clipboard`][rust-clipboard] is not maintained
-anymore, I highly recommend you to switch to [`copypasta`][copypasta] with
-[`copypasta-ext`][copypasta-ext]. There are forked, which means they are
-essentially the same but newer.**
+**Important note:**  
+**Because [`rust-clipboard`][rust-clipboard] is not maintained
+anymore, I highly recommend you to switch to [`copypasta-ext`][copypasta-ext]
+(using [`copypasta`][copypasta]). These are forked, which essentially means its
+the same but newer. Migrating should be simple.**
 
 I had a growing annoyance with `rust-clipboard`, because the clipboard is
 cleared on the Linux/X11 platform when your application exists as per X11
